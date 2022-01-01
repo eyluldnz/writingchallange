@@ -4,10 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css' ;
+import ChallangeContextProvider from './contexts/ChallangeContextProvider';
 
 ReactDOM.render(
   <React.StrictMode>
+    <ChallangeContextProvider>
     <App />
+    </ChallangeContextProvider>
+   
   </React.StrictMode>,
   document.getElementById('root')
 );
