@@ -12,6 +12,7 @@
 
 * React.js
 * Bootstrap
+* context-api
 * react-router-dom
 * styled-components
 
